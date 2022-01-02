@@ -1,0 +1,34 @@
+{
+  "lblElement": {
+    "findBy": "xpath",
+    "selector": "//div[@class=\"card mt-4 top-card\"]"
+  },
+  "ElementSection": {
+    "findBy": "xpath",
+    "selector": "//div[@class=\"header-text\" and text() ='Elements']"
+  },
+  "btnTextbox": {
+    "findBy": "className",
+    "selector": "btn-light"
+  },
+  "txtUserName": {
+    "findBy": "id",
+    "selector": "userName"
+  },
+  "txtUserEmail": {
+    "findBy": "id",
+    "selector": "userEmail"
+  },
+  "btnSubmit": {
+    "findBy": "id",
+    "selector": "submit"
+  },
+  "btnCheckbox": {
+    "findBy": "id",
+    "selector": "item-1"
+  },
+  "btnRadioHome": {
+    "findBy": "xpath",
+    "selector": "//span[@class=\"rct-checkbox\"]"
+  }
+}
